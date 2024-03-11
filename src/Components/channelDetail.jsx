@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { Box } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 import { Videos, ChannelCard } from './'
 import { fetchFromAPI } from '../utils/fetchFromAPI';
 
@@ -20,6 +20,9 @@ const ChannelDetail = () => {
     fetchResults();
   }, [id]);
 
+  const videoCount = (channelDetail?.statistics?.videoCount)
+  const subscriberCount = (channelDetail?.statistics?.subscriberCount)
+  const viewCount = (channelDetail?.statistics?.viewCount)
   return (
     <Box minHeight="95vh">
       <Box>
@@ -29,6 +32,11 @@ const ChannelDetail = () => {
           zIndex: 10,
         }} />
         <ChannelCard channelDetail={channelDetail} marginTop="-93px" />
+        <Typography color="white" align='center'>
+          {videoCount} videos <br/>
+          {subscriberCount} Subscribers <br/>
+          {viewCount} views
+        </Typography>
       </Box>
       <Box p={2} display="flex">
         <Box sx={{ mr: { sm: '100px' } }}/>
