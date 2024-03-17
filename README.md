@@ -79,5 +79,16 @@ ViewTube/
 └── package.json
 ```
 
+## Demo
+New Videos
+![New Videos Pic](image.png)
+
+Channel Details
+![Channel Details Pic](image-1.png)
+
+Video Player
+![Video Player Pic](image-2.png)
+
+
 ## License
 MIT
