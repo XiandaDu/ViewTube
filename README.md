@@ -92,3 +92,6 @@ Video Player
 
 ## License
 MIT
+
+## Disclaimer
+This project is an independent development created solely for learning purposes, aiming to showcase my skills and experience. It is not an official product of YouTube or affiliated with YouTube company. This project is intended for educational and technical demonstration purposes only and has not been endorsed or authorized by YouTube company. I commit to compliance with all applicable laws and regulations and respect the intellectual property and privacy rights of others. If you believe there are any issues with this project, please feel free to contact me for further discussion.
